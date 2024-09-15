@@ -1,0 +1,464 @@
+06-01-2024 14:30:04 | Delete the helping folders ...
+06-01-2024 14:30:04 | Done.
+06-01-2024 14:30:04 | Selected algorithm: NSGA2
+06-01-2024 14:30:04 | Generate start individual based on an ASCII map...
+06-01-2024 14:30:04 | Read ascii file ...
+06-01-2024 14:30:04 | Read transition matrix...
+06-01-2024 14:30:04 | Determine static elements of the transition matrix ...
+06-01-2024 14:30:04 | possible_elements per land use: 
+06-01-2024 14:30:04 | land use, elements: 1,[1 2 3 4 5 6 7]
+06-01-2024 14:30:04 | land use, elements: 2,[1 2 3 4 5 6 7]
+06-01-2024 14:30:04 | land use, elements: 3,[1 2 3 4 5 6 7]
+06-01-2024 14:30:04 | land use, elements: 4,[1 2 3 4 5 6 7]
+06-01-2024 14:30:04 | land use, elements: 5,[1 2 3 4 5 6 7]
+06-01-2024 14:30:04 | land use, elements: 6,[6 7]
+06-01-2024 14:30:04 | land use, elements: 7,[7]
+06-01-2024 14:30:04 | Cluster cells of the original map into patches ...
+06-01-2024 14:30:04 | Runtime for the generation of the patch_ID_map: 0 seconds.
+06-01-2024 14:30:04 | start individual of the input data with length 36: [2, 6, 1, 2, 3, 4, 4, 5, 6, 7, 2, 4, 5, 5, 6, 1, 7, 2, 5, 4, 3, 1, 4, 6, 1, 5, 2, 7, 5, 3, 4, 2, 3, 7, 2, 1]
+06-01-2024 14:30:04 | DiscreteBounder values: [1, 2, 3, 4, 5, 6, 7]
+06-01-2024 14:30:04 | map proportion of the patches: [8.0, 1.0, 4.0, 5.0, 2.0, 4.0, 2.0, 2.0, 2.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0, 2.0, 4.0, 4.0, 1.0, 1.0, 2.0, 4.0, 1.0, 1.0, 7.000000000000001, 4.0, 3.0, 3.0, 3.0, 2.0, 3.0, 2.0, 3.0, 3.0, 2.0, 2.0, 3.0]
+06-01-2024 14:30:04 | Read min/max limits ...
+06-01-2024 14:30:04 | min_max_diff: [[  1   2   3   4   5   6   7   8]
+ [  0   0   0   0   0  10  10   0]
+ [100 100 100 100 100  25  30 100]]
+06-01-2024 14:30:04 | Generator candidates are: 
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [7, 7, 1, 7, 6, 4, 2, 4, 6, 7, 4, 7, 2, 5, 7, 5, 7, 7, 7, 2, 5, 6, 1, 7, 3, 1, 5, 7, 4, 1, 4, 4, 5, 7, 6, 6]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [6, 6, 4, 4, 2, 3, 2, 5, 7, 7, 1, 5, 3, 1, 6, 7, 7, 4, 1, 1, 7, 7, 5, 6, 7, 1, 5, 7, 7, 5, 6, 4, 3, 7, 6, 6]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [7, 6, 5, 5, 4, 3, 6, 7, 6, 7, 4, 2, 1, 3, 6, 7, 7, 4, 1, 6, 2, 7, 7, 7, 6, 2, 4, 7, 3, 3, 6, 5, 1, 7, 7, 4]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 5, 2]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 2]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [6, 6, 2, 1, 1, 2, 2, 5, 7, 7, 5, 2, 3, 2, 7, 1, 7, 4, 7, 4, 2, 7, 1, 6, 3, 4, 2, 7, 3, 5, 3, 1, 7, 7, 4, 4]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [1, 6, 1, 3, 7, 7, 2, 7, 7, 7, 7, 4, 2, 4, 6, 4, 7, 7, 6, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 1, 4]
+06-01-2024 14:30:04 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:04 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:04 | [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:04 | Population for generation 1: 
+06-01-2024 14:30:04 | 1, [2, 6, 1, 2, 3, 4, 4, 5, 6, 7, 2, 4, 5, 5, 6, 1, 7, 2, 5, 4, 3, 1, 4, 6, 1, 5, 2, 7, 5, 3, 4, 2, 3, 7, 2, 1]
+06-01-2024 14:30:04 | 2, [7, 7, 1, 7, 6, 4, 2, 4, 6, 7, 4, 7, 2, 5, 7, 5, 7, 7, 7, 2, 5, 6, 1, 7, 3, 1, 5, 7, 4, 1, 4, 4, 5, 7, 6, 6]
+06-01-2024 14:30:04 | 3, [6, 6, 4, 4, 2, 3, 2, 5, 7, 7, 1, 5, 3, 1, 6, 7, 7, 4, 1, 1, 7, 7, 5, 6, 7, 1, 5, 7, 7, 5, 6, 4, 3, 7, 6, 6]
+06-01-2024 14:30:04 | 4, [7, 6, 5, 5, 4, 3, 6, 7, 6, 7, 4, 2, 1, 3, 6, 7, 7, 4, 1, 6, 2, 7, 7, 7, 6, 2, 4, 7, 3, 3, 6, 5, 1, 7, 7, 4]
+06-01-2024 14:30:04 | 5, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 5, 2]
+06-01-2024 14:30:04 | 6, [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 2]
+06-01-2024 14:30:04 | 7, [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:04 | 8, [6, 6, 2, 1, 1, 2, 2, 5, 7, 7, 5, 2, 3, 2, 7, 1, 7, 4, 7, 4, 2, 7, 1, 6, 3, 4, 2, 7, 3, 5, 3, 1, 7, 7, 4, 4]
+06-01-2024 14:30:04 | 9, [1, 6, 1, 3, 7, 7, 2, 7, 7, 7, 7, 4, 2, 4, 6, 4, 7, 7, 6, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 1, 4]
+06-01-2024 14:30:04 | 10, [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:04 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Create the helping folder ...
+06-01-2024 14:30:05 | Done.
+06-01-2024 14:30:05 | Update genome in models folder 1
+06-01-2024 14:30:05 | Update genome in models folder 2
+06-01-2024 14:30:08 | Update genome in models folder 3
+06-01-2024 14:30:08 | Update genome in models folder 4
+06-01-2024 14:30:10 | Update genome in models folder 5
+06-01-2024 14:30:10 | Update genome in models folder 6
+06-01-2024 14:30:11 | Update genome in models folder 7
+06-01-2024 14:30:12 | Update genome in models folder 8
+06-01-2024 14:30:13 | Update genome in models folder 9
+06-01-2024 14:30:13 | Update genome in models folder 10
+06-01-2024 14:30:05 | Evaluation of individual 1
+06-01-2024 14:30:05 | Run external models ...
+06-01-2024 14:30:08 | Done.
+06-01-2024 14:30:13 | Evaluation of individual 10
+06-01-2024 14:30:13 | Run external models ...
+06-01-2024 14:30:15 | Done.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:05 | Evaluation of individual 2
+06-01-2024 14:30:05 | Run external models ...
+06-01-2024 14:30:08 | Done.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:06 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py
+06-01-2024 14:30:07 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:08 | Evaluation of individual 3
+06-01-2024 14:30:08 | Run external models ...
+06-01-2024 14:30:10 | Done.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:08 | Evaluation of individual 4
+06-01-2024 14:30:08 | Run external models ...
+06-01-2024 14:30:10 | Done.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:08 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py
+06-01-2024 14:30:09 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:10 | Evaluation of individual 5
+06-01-2024 14:30:10 | Run external models ...
+06-01-2024 14:30:11 | Done.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py
+06-01-2024 14:30:10 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py
+06-01-2024 14:30:10 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py
+06-01-2024 14:30:10 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:10 | Evaluation of individual 6
+06-01-2024 14:30:10 | Run external models ...
+06-01-2024 14:30:12 | Done.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py
+06-01-2024 14:30:11 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py
+06-01-2024 14:30:11 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:10 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py
+06-01-2024 14:30:11 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:11 | Evaluation of individual 7
+06-01-2024 14:30:11 | Run external models ...
+06-01-2024 14:30:13 | Done.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:12 | Evaluation of individual 8
+06-01-2024 14:30:12 | Run external models ...
+06-01-2024 14:30:13 | Done.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:12 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py
+06-01-2024 14:30:12 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:13 | Evaluation of individual 9
+06-01-2024 14:30:13 | Run external models ...
+06-01-2024 14:30:15 | Done.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:14 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py
+06-01-2024 14:30:14 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:17 | not_accepted_ind []
+06-01-2024 14:30:17 | Fitness values are: [[168.0, 540.0, 15000.0], [226.0, 587.0, 21250.0], [254.0, 613.0, 20625.0], [202.0, 584.0, 23125.0], [226.0, 602.0, 23125.0], [238.0, 588.0, 23750.0], [258.0, 602.0, 12500.0], [218.0, 578.0, 17500.0], [256.0, 575.0, 23750.0], [272.0, 611.0, 25000.0]] 
+
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [1, 6, 1, 3, 7, 7, 2, 7, 7, 7, 7, 4, 2, 4, 6, 4, 7, 7, 6, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 5, 2]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 1, 4]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 7, 6, 7, 2, 2]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:17 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 6, 3, 7, 1, 3, 1, 4, 5, 7, 5, 2]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 5, 2]
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 2, 1]
+06-01-2024 14:30:17 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 3]
+06-01-2024 14:30:17 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:17 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:17 | [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 6]
+06-01-2024 14:30:17 | Population for generation 2: 
+06-01-2024 14:30:17 | 1, [1, 6, 1, 3, 7, 7, 2, 7, 7, 7, 7, 4, 2, 4, 6, 4, 7, 7, 6, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 5, 2]
+06-01-2024 14:30:17 | 2, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 1, 4]
+06-01-2024 14:30:17 | 3, [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 7, 6, 7, 2, 2]
+06-01-2024 14:30:17 | 4, [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:17 | 5, [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 6, 3, 7, 1, 3, 1, 4, 5, 7, 5, 2]
+06-01-2024 14:30:17 | 6, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:17 | 7, [4, 7, 1, 6, 6, 3, 4, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 5, 2]
+06-01-2024 14:30:17 | 8, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 7, 7, 2, 1]
+06-01-2024 14:30:17 | 9, [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 3]
+06-01-2024 14:30:17 | 10, [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 6]
+06-01-2024 14:30:17 | Update genome in models folder 1
+06-01-2024 14:30:17 | Update genome in models folder 2
+06-01-2024 14:30:19 | Update genome in models folder 3
+06-01-2024 14:30:19 | Update genome in models folder 4
+06-01-2024 14:30:21 | Update genome in models folder 5
+06-01-2024 14:30:21 | Update genome in models folder 6
+06-01-2024 14:30:23 | Update genome in models folder 7
+06-01-2024 14:30:23 | Update genome in models folder 8
+06-01-2024 14:30:25 | Update genome in models folder 9
+06-01-2024 14:30:25 | Update genome in models folder 10
+06-01-2024 14:30:17 | Evaluation of individual 1
+06-01-2024 14:30:17 | Run external models ...
+06-01-2024 14:30:19 | Done.
+06-01-2024 14:30:25 | Evaluation of individual 10
+06-01-2024 14:30:25 | Run external models ...
+06-01-2024 14:30:27 | Done.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:17 | Evaluation of individual 2
+06-01-2024 14:30:17 | Run external models ...
+06-01-2024 14:30:19 | Done.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:18 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py
+06-01-2024 14:30:18 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:19 | Evaluation of individual 3
+06-01-2024 14:30:19 | Run external models ...
+06-01-2024 14:30:21 | Done.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:19 | Evaluation of individual 4
+06-01-2024 14:30:19 | Run external models ...
+06-01-2024 14:30:21 | Done.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:20 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py
+06-01-2024 14:30:20 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:21 | Evaluation of individual 5
+06-01-2024 14:30:21 | Run external models ...
+06-01-2024 14:30:23 | Done.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:21 | Evaluation of individual 6
+06-01-2024 14:30:21 | Run external models ...
+06-01-2024 14:30:23 | Done.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:22 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py
+06-01-2024 14:30:22 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:23 | Evaluation of individual 7
+06-01-2024 14:30:23 | Run external models ...
+06-01-2024 14:30:25 | Done.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:23 | Evaluation of individual 8
+06-01-2024 14:30:23 | Run external models ...
+06-01-2024 14:30:25 | Done.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:24 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py
+06-01-2024 14:30:24 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:25 | Evaluation of individual 9
+06-01-2024 14:30:25 | Run external models ...
+06-01-2024 14:30:27 | Done.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:26 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py
+06-01-2024 14:30:26 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:28 | not_accepted_ind []
+06-01-2024 14:30:28 | Fitness values are: [[238.0, 579.0, 23750.0], [244.0, 595.0, 23125.0], [236.0, 600.0, 14375.0], [232.0, 581.0, 21875.0], [274.0, 595.0, 24375.0], [214.0, 605.0, 21250.0], [240.0, 595.0, 12500.0], [226.0, 599.0, 23125.0], [236.0, 584.0, 25625.0], [250.0, 590.0, 23750.0]] 
+
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [4, 7, 1, 6, 6, 3, 4, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 3]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [4, 6, 1, 2, 3, 5, 3, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:28 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [7, 7, 3, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 4, 6, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 6]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [4, 6, 1, 7, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | create individual based on tabu memory and in accordance with transition and total area constraints
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [7, 7, 3, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 1, 4, 1, 5, 6, 7, 2, 6]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 3, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 5, 7, 5, 2]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 5, 2]
+06-01-2024 14:30:28 | The generation of a new candidate needed 0 seconds.
+06-01-2024 14:30:28 | [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 6, 3, 7, 1, 3, 1, 4, 5, 7, 1, 4]
+06-01-2024 14:30:28 | Population for generation 3: 
+06-01-2024 14:30:28 | 1, [4, 7, 1, 6, 6, 3, 4, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 3]
+06-01-2024 14:30:28 | 2, [4, 6, 1, 2, 3, 5, 3, 6, 6, 7, 1, 1, 2, 4, 7, 5, 7, 2, 5, 7, 5, 1, 2, 6, 4, 1, 4, 7, 1, 2, 1, 1, 1, 7, 2, 1]
+06-01-2024 14:30:28 | 3, [7, 7, 3, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 4, 6, 6, 3, 5, 7, 1, 4, 1, 7, 6, 7, 2, 6]
+06-01-2024 14:30:28 | 4, [4, 6, 1, 2, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | 5, [4, 6, 1, 7, 3, 5, 3, 1, 6, 7, 3, 3, 7, 7, 6, 5, 7, 5, 3, 2, 1, 6, 4, 7, 6, 3, 5, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | 6, [7, 7, 3, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 1, 4, 1, 5, 6, 7, 2, 6]
+06-01-2024 14:30:28 | 7, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 3, 5, 7, 6, 7, 6, 1, 1, 2, 3, 6, 6, 7, 6, 3, 7, 1, 3, 1, 4, 5, 7, 5, 2]
+06-01-2024 14:30:28 | 8, [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5]
+06-01-2024 14:30:28 | 9, [6, 7, 3, 2, 1, 6, 5, 5, 6, 7, 5, 4, 7, 5, 7, 6, 7, 6, 1, 1, 3, 1, 6, 6, 3, 7, 7, 7, 1, 4, 1, 1, 5, 7, 5, 2]
+06-01-2024 14:30:28 | 10, [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 4, 3, 7, 1, 6, 3, 7, 1, 3, 1, 4, 5, 7, 1, 4]
+06-01-2024 14:30:29 | Update genome in models folder 1
+06-01-2024 14:30:29 | Update genome in models folder 2
+06-01-2024 14:30:31 | Update genome in models folder 3
+06-01-2024 14:30:31 | Update genome in models folder 4
+06-01-2024 14:30:33 | Update genome in models folder 5
+06-01-2024 14:30:33 | Update genome in models folder 6
+06-01-2024 14:30:35 | Update genome in models folder 7
+06-01-2024 14:30:35 | Update genome in models folder 8
+06-01-2024 14:30:36 | Update genome in models folder 9
+06-01-2024 14:30:37 | Update genome in models folder 10
+06-01-2024 14:30:29 | Evaluation of individual 1
+06-01-2024 14:30:29 | Run external models ...
+06-01-2024 14:30:31 | Done.
+06-01-2024 14:30:37 | Evaluation of individual 10
+06-01-2024 14:30:37 | Run external models ...
+06-01-2024 14:30:38 | Done.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_9\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:29 | Evaluation of individual 2
+06-01-2024 14:30:29 | Run external models ...
+06-01-2024 14:30:31 | Done.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:30 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py
+06-01-2024 14:30:30 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_1\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:31 | Evaluation of individual 3
+06-01-2024 14:30:31 | Run external models ...
+06-01-2024 14:30:33 | Done.
+06-01-2024 14:30:31 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:31 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:31 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_2\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:31 | Evaluation of individual 4
+06-01-2024 14:30:31 | Run external models ...
+06-01-2024 14:30:33 | Done.
+06-01-2024 14:30:31 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:32 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:32 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py
+06-01-2024 14:30:32 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_3\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:33 | Evaluation of individual 5
+06-01-2024 14:30:33 | Run external models ...
+06-01-2024 14:30:35 | Done.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_4\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:33 | Evaluation of individual 6
+06-01-2024 14:30:33 | Run external models ...
+06-01-2024 14:30:35 | Done.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:33 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py
+06-01-2024 14:30:34 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_5\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:35 | Evaluation of individual 7
+06-01-2024 14:30:35 | Run external models ...
+06-01-2024 14:30:36 | Done.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py
+06-01-2024 14:30:35 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py
+06-01-2024 14:30:35 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py
+06-01-2024 14:30:35 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_6\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:35 | Evaluation of individual 8
+06-01-2024 14:30:35 | Run external models ...
+06-01-2024 14:30:37 | Done.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py
+06-01-2024 14:30:35 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py
+06-01-2024 14:30:36 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:35 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py
+06-01-2024 14:30:36 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_7\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:36 | Evaluation of individual 9
+06-01-2024 14:30:36 | Run external models ...
+06-01-2024 14:30:38 | Done.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compact\compact.py ran for 0 seconds.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\compatibility\compatibility.py ran for 0 seconds.
+06-01-2024 14:30:37 | Start model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py
+06-01-2024 14:30:37 | The model C:\Users\Margaux Van Geem\Thesis\CoMOLA-master-original\models_8\economy\economy.py ran for 0 seconds.
+06-01-2024 14:30:40 | not_accepted_ind []
+06-01-2024 14:30:40 | Fitness values are: [[244.0, 584.0, 25625.0], [228.0, 586.0, 12500.0], [260.0, 601.0, 23125.0], [238.0, 597.0, 24375.0], [208.0, 583.0, 23125.0], [292.0, 607.0, 28125.0], [210.0, 589.0, 21250.0], [266.0, 606.0, 24375.0], [242.0, 599.0, 23125.0], [276.0, 590.0, 24375.0]] 
+
+06-01-2024 14:30:40 | The optimization process needed 35 seconds.
+06-01-2024 14:30:40 | Best Solutions: 
+
+06-01-2024 14:30:40 | [6, 6, 4, 4, 2, 3, 2, 5, 7, 7, 1, 5, 3, 1, 6, 7, 7, 4, 1, 1, 7, 7, 5, 6, 7, 1, 5, 7, 7, 5, 6, 4, 3, 7, 6, 6] : [254.0, 613.0, 20625.0]
+06-01-2024 14:30:40 | [7, 7, 6, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 4, 4, 5, 2, 2, 7, 6, 5] : [272.0, 611.0, 25000.0]
+06-01-2024 14:30:40 | [7, 7, 3, 6, 4, 7, 4, 5, 7, 7, 2, 3, 7, 3, 6, 1, 7, 6, 7, 1, 1, 3, 3, 7, 1, 3, 3, 7, 1, 4, 1, 5, 6, 7, 2, 6] : [292.0, 607.0, 28125.0]
+06-01-2024 14:30:40 | Total runtime of the tool: 35 seconds.

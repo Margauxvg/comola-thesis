@@ -1,0 +1,190 @@
+2024-01-06 15:55:37,430 - inspyred.ec - DEBUG - generating initial population
+2024-01-06 15:55:38,247 - inspyred.ec - DEBUG - evaluating initial population
+2024-01-06 15:56:33,033 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:56:33,033 - inspyred.ec - DEBUG - archiving initial population
+2024-01-06 15:56:33,033 - inspyred.ec - DEBUG - archive size is now 10
+2024-01-06 15:56:33,033 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:56:33,033 - inspyred.ec - DEBUG - observation using file_observer at generation 0 and evaluation 50
+2024-01-06 15:56:33,042 - inspyred.ec - DEBUG - termination test using special_termination at generation 0 and evaluation 50
+2024-01-06 15:56:33,042 - inspyred.ec - DEBUG - termination test using generation_termination at generation 0 and evaluation 50
+2024-01-06 15:56:33,042 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 0 and evaluation 50
+2024-01-06 15:56:33,068 - inspyred.ec - DEBUG - selection using tournament_selection at generation 0 and evaluation 50
+2024-01-06 15:56:33,068 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 15:56:33,069 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 0 and evaluation 50
+2024-01-06 15:56:33,069 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 0 and evaluation 50
+2024-01-06 15:56:33,069 - inspyred.ec - DEBUG - variation using repair_mutation at generation 0 and evaluation 50
+2024-01-06 15:56:33,532 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 15:56:33,532 - inspyred.ec - DEBUG - evaluation using evaluate at generation 0 and evaluation 50
+2024-01-06 15:57:24,115 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 0 and evaluation 100
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - migration using default_migration at generation 0 and evaluation 100
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - archival using best_archiver at generation 0 and evaluation 100
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - archive size is now 3
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:57:24,134 - inspyred.ec - DEBUG - observation using file_observer at generation 1 and evaluation 100
+2024-01-06 15:57:24,135 - inspyred.ec - DEBUG - termination test using special_termination at generation 1 and evaluation 100
+2024-01-06 15:57:24,135 - inspyred.ec - DEBUG - termination test using generation_termination at generation 1 and evaluation 100
+2024-01-06 15:57:24,135 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 1 and evaluation 100
+2024-01-06 15:57:24,161 - inspyred.ec - DEBUG - selection using tournament_selection at generation 1 and evaluation 100
+2024-01-06 15:57:24,161 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 15:57:24,165 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 1 and evaluation 100
+2024-01-06 15:57:24,165 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 1 and evaluation 100
+2024-01-06 15:57:24,167 - inspyred.ec - DEBUG - variation using repair_mutation at generation 1 and evaluation 100
+2024-01-06 15:57:24,486 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 15:57:24,486 - inspyred.ec - DEBUG - evaluation using evaluate at generation 1 and evaluation 100
+2024-01-06 15:58:16,138 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 1 and evaluation 150
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - migration using default_migration at generation 1 and evaluation 150
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - archival using best_archiver at generation 1 and evaluation 150
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - archive size is now 4
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:58:16,153 - inspyred.ec - DEBUG - observation using file_observer at generation 2 and evaluation 150
+2024-01-06 15:58:16,157 - inspyred.ec - DEBUG - termination test using special_termination at generation 2 and evaluation 150
+2024-01-06 15:58:16,157 - inspyred.ec - DEBUG - termination test using generation_termination at generation 2 and evaluation 150
+2024-01-06 15:58:16,157 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 2 and evaluation 150
+2024-01-06 15:58:16,184 - inspyred.ec - DEBUG - selection using tournament_selection at generation 2 and evaluation 150
+2024-01-06 15:58:16,184 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 15:58:16,187 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 2 and evaluation 150
+2024-01-06 15:58:16,187 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 2 and evaluation 150
+2024-01-06 15:58:16,187 - inspyred.ec - DEBUG - variation using repair_mutation at generation 2 and evaluation 150
+2024-01-06 15:58:16,529 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 15:58:16,532 - inspyred.ec - DEBUG - evaluation using evaluate at generation 2 and evaluation 150
+2024-01-06 15:59:08,063 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 2 and evaluation 200
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - migration using default_migration at generation 2 and evaluation 200
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - archival using best_archiver at generation 2 and evaluation 200
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - archive size is now 6
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:08,075 - inspyred.ec - DEBUG - observation using file_observer at generation 3 and evaluation 200
+2024-01-06 15:59:08,082 - inspyred.ec - DEBUG - termination test using special_termination at generation 3 and evaluation 200
+2024-01-06 15:59:08,082 - inspyred.ec - DEBUG - termination test using generation_termination at generation 3 and evaluation 200
+2024-01-06 15:59:08,082 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 3 and evaluation 200
+2024-01-06 15:59:08,102 - inspyred.ec - DEBUG - selection using tournament_selection at generation 3 and evaluation 200
+2024-01-06 15:59:08,102 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 15:59:08,102 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 3 and evaluation 200
+2024-01-06 15:59:08,102 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 3 and evaluation 200
+2024-01-06 15:59:08,109 - inspyred.ec - DEBUG - variation using repair_mutation at generation 3 and evaluation 200
+2024-01-06 15:59:08,487 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 15:59:08,487 - inspyred.ec - DEBUG - evaluation using evaluate at generation 3 and evaluation 200
+2024-01-06 15:59:59,601 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 3 and evaluation 250
+2024-01-06 15:59:59,618 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:59,618 - inspyred.ec - DEBUG - migration using default_migration at generation 3 and evaluation 250
+2024-01-06 15:59:59,618 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:59,618 - inspyred.ec - DEBUG - archival using best_archiver at generation 3 and evaluation 250
+2024-01-06 15:59:59,621 - inspyred.ec - DEBUG - archive size is now 12
+2024-01-06 15:59:59,621 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 15:59:59,621 - inspyred.ec - DEBUG - observation using file_observer at generation 4 and evaluation 250
+2024-01-06 15:59:59,624 - inspyred.ec - DEBUG - termination test using special_termination at generation 4 and evaluation 250
+2024-01-06 15:59:59,624 - inspyred.ec - DEBUG - termination test using generation_termination at generation 4 and evaluation 250
+2024-01-06 15:59:59,624 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 4 and evaluation 250
+2024-01-06 15:59:59,641 - inspyred.ec - DEBUG - selection using tournament_selection at generation 4 and evaluation 250
+2024-01-06 15:59:59,641 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 15:59:59,651 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 4 and evaluation 250
+2024-01-06 15:59:59,651 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 4 and evaluation 250
+2024-01-06 15:59:59,654 - inspyred.ec - DEBUG - variation using repair_mutation at generation 4 and evaluation 250
+2024-01-06 16:00:00,155 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:00:00,155 - inspyred.ec - DEBUG - evaluation using evaluate at generation 4 and evaluation 250
+2024-01-06 16:00:51,844 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 4 and evaluation 300
+2024-01-06 16:00:51,859 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:00:51,859 - inspyred.ec - DEBUG - migration using default_migration at generation 4 and evaluation 300
+2024-01-06 16:00:51,859 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:00:51,859 - inspyred.ec - DEBUG - archival using best_archiver at generation 4 and evaluation 300
+2024-01-06 16:00:51,864 - inspyred.ec - DEBUG - archive size is now 16
+2024-01-06 16:00:51,864 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:00:51,864 - inspyred.ec - DEBUG - observation using file_observer at generation 5 and evaluation 300
+2024-01-06 16:00:51,865 - inspyred.ec - DEBUG - termination test using special_termination at generation 5 and evaluation 300
+2024-01-06 16:00:51,865 - inspyred.ec - DEBUG - termination test using generation_termination at generation 5 and evaluation 300
+2024-01-06 16:00:51,865 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 5 and evaluation 300
+2024-01-06 16:00:51,891 - inspyred.ec - DEBUG - selection using tournament_selection at generation 5 and evaluation 300
+2024-01-06 16:00:51,892 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 16:00:51,894 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 5 and evaluation 300
+2024-01-06 16:00:51,894 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 5 and evaluation 300
+2024-01-06 16:00:51,894 - inspyred.ec - DEBUG - variation using repair_mutation at generation 5 and evaluation 300
+2024-01-06 16:00:52,348 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:00:52,348 - inspyred.ec - DEBUG - evaluation using evaluate at generation 5 and evaluation 300
+2024-01-06 16:01:43,355 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 5 and evaluation 350
+2024-01-06 16:01:43,365 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:01:43,365 - inspyred.ec - DEBUG - migration using default_migration at generation 5 and evaluation 350
+2024-01-06 16:01:43,365 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:01:43,365 - inspyred.ec - DEBUG - archival using best_archiver at generation 5 and evaluation 350
+2024-01-06 16:01:43,372 - inspyred.ec - DEBUG - archive size is now 15
+2024-01-06 16:01:43,372 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:01:43,372 - inspyred.ec - DEBUG - observation using file_observer at generation 6 and evaluation 350
+2024-01-06 16:01:43,375 - inspyred.ec - DEBUG - termination test using special_termination at generation 6 and evaluation 350
+2024-01-06 16:01:43,375 - inspyred.ec - DEBUG - termination test using generation_termination at generation 6 and evaluation 350
+2024-01-06 16:01:43,375 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 6 and evaluation 350
+2024-01-06 16:01:43,398 - inspyred.ec - DEBUG - selection using tournament_selection at generation 6 and evaluation 350
+2024-01-06 16:01:43,398 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 16:01:43,405 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 6 and evaluation 350
+2024-01-06 16:01:43,405 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 6 and evaluation 350
+2024-01-06 16:01:43,405 - inspyred.ec - DEBUG - variation using repair_mutation at generation 6 and evaluation 350
+2024-01-06 16:01:43,832 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:01:43,832 - inspyred.ec - DEBUG - evaluation using evaluate at generation 6 and evaluation 350
+2024-01-06 16:02:35,058 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 6 and evaluation 400
+2024-01-06 16:02:35,068 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:02:35,068 - inspyred.ec - DEBUG - migration using default_migration at generation 6 and evaluation 400
+2024-01-06 16:02:35,068 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:02:35,068 - inspyred.ec - DEBUG - archival using best_archiver at generation 6 and evaluation 400
+2024-01-06 16:02:35,073 - inspyred.ec - DEBUG - archive size is now 15
+2024-01-06 16:02:35,073 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:02:35,073 - inspyred.ec - DEBUG - observation using file_observer at generation 7 and evaluation 400
+2024-01-06 16:02:35,075 - inspyred.ec - DEBUG - termination test using special_termination at generation 7 and evaluation 400
+2024-01-06 16:02:35,075 - inspyred.ec - DEBUG - termination test using generation_termination at generation 7 and evaluation 400
+2024-01-06 16:02:35,075 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 7 and evaluation 400
+2024-01-06 16:02:35,099 - inspyred.ec - DEBUG - selection using tournament_selection at generation 7 and evaluation 400
+2024-01-06 16:02:35,099 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 16:02:35,099 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 7 and evaluation 400
+2024-01-06 16:02:35,099 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 7 and evaluation 400
+2024-01-06 16:02:35,099 - inspyred.ec - DEBUG - variation using repair_mutation at generation 7 and evaluation 400
+2024-01-06 16:02:35,502 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:02:35,502 - inspyred.ec - DEBUG - evaluation using evaluate at generation 7 and evaluation 400
+2024-01-06 16:03:26,660 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 7 and evaluation 450
+2024-01-06 16:03:26,680 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:03:26,680 - inspyred.ec - DEBUG - migration using default_migration at generation 7 and evaluation 450
+2024-01-06 16:03:26,680 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:03:26,680 - inspyred.ec - DEBUG - archival using best_archiver at generation 7 and evaluation 450
+2024-01-06 16:03:26,683 - inspyred.ec - DEBUG - archive size is now 15
+2024-01-06 16:03:26,683 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:03:26,683 - inspyred.ec - DEBUG - observation using file_observer at generation 8 and evaluation 450
+2024-01-06 16:03:26,684 - inspyred.ec - DEBUG - termination test using special_termination at generation 8 and evaluation 450
+2024-01-06 16:03:26,684 - inspyred.ec - DEBUG - termination test using generation_termination at generation 8 and evaluation 450
+2024-01-06 16:03:26,684 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 8 and evaluation 450
+2024-01-06 16:03:26,703 - inspyred.ec - DEBUG - selection using tournament_selection at generation 8 and evaluation 450
+2024-01-06 16:03:26,710 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 16:03:26,713 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 8 and evaluation 450
+2024-01-06 16:03:26,713 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 8 and evaluation 450
+2024-01-06 16:03:26,713 - inspyred.ec - DEBUG - variation using repair_mutation at generation 8 and evaluation 450
+2024-01-06 16:03:27,177 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:03:27,177 - inspyred.ec - DEBUG - evaluation using evaluate at generation 8 and evaluation 450
+2024-01-06 16:04:17,944 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 8 and evaluation 500
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - migration using default_migration at generation 8 and evaluation 500
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - archival using best_archiver at generation 8 and evaluation 500
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - archive size is now 8
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:04:17,960 - inspyred.ec - DEBUG - observation using file_observer at generation 9 and evaluation 500
+2024-01-06 16:04:17,963 - inspyred.ec - DEBUG - termination test using special_termination at generation 9 and evaluation 500
+2024-01-06 16:04:17,963 - inspyred.ec - DEBUG - termination test using generation_termination at generation 9 and evaluation 500
+2024-01-06 16:04:17,963 - inspyred.ec - DEBUG - termination test using diversity_termination at generation 9 and evaluation 500
+2024-01-06 16:04:17,992 - inspyred.ec - DEBUG - selection using tournament_selection at generation 9 and evaluation 500
+2024-01-06 16:04:17,992 - inspyred.ec - DEBUG - selected 50 candidates
+2024-01-06 16:04:17,993 - inspyred.ec - DEBUG - variation using n_point_crossover at generation 9 and evaluation 500
+2024-01-06 16:04:17,993 - inspyred.ec - DEBUG - variation using random_reset_mutation at generation 9 and evaluation 500
+2024-01-06 16:04:17,996 - inspyred.ec - DEBUG - variation using repair_mutation at generation 9 and evaluation 500
+2024-01-06 16:04:18,530 - inspyred.ec - DEBUG - created 50 offspring
+2024-01-06 16:04:18,530 - inspyred.ec - DEBUG - evaluation using evaluate at generation 9 and evaluation 500
+2024-01-06 16:05:10,246 - inspyred.ec - DEBUG - replacement using nsga_replacement at generation 9 and evaluation 550
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - migration using default_migration at generation 9 and evaluation 550
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - archival using best_archiver at generation 9 and evaluation 550
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - archive size is now 7
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - population size is now 50
+2024-01-06 16:05:10,259 - inspyred.ec - DEBUG - observation using file_observer at generation 10 and evaluation 550
+2024-01-06 16:05:10,265 - inspyred.ec - DEBUG - termination test using special_termination at generation 10 and evaluation 550
+2024-01-06 16:05:10,265 - inspyred.ec - DEBUG - termination test using generation_termination at generation 10 and evaluation 550
+2024-01-06 16:05:10,265 - inspyred.ec - DEBUG - termination from generation_termination at generation 10 and evaluation 550
